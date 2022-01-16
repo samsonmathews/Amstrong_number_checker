@@ -1,0 +1,10 @@
+number=(input('enter the number you want to check for Amstrong = '))
+num=list(number)
+k=0
+for n in num:
+    k+=pow(int(n),3)
+if k==int(number):
+    print('the number you have entered is an amstrong')
+else:
+    print('the number entered is not an amstrong')
+print(k)
